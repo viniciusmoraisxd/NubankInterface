@@ -1,0 +1,76 @@
+name: nubank_interface
+description: Clone of Nubank Interface
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: "Graphik"
+      fonts:
+        - asset: "assets/fonts/Graphik/GraphikExtraLightItalic.otf"
+          style: "italic"
+          weight: 200
+        - asset: "assets/fonts/Graphik/GraphikLightItalic.otf"
+          style: "italic"
+          weight: 300
+        - asset: "assets/fonts/Graphik/GraphikRegularItalic.otf"
+          style: "italic"
+          weight: 400
+        - asset: "assets/fonts/Graphik/GraphikMediumItalic.otf"
+          style: "italic"
+          weight: 500
+        - asset: "assets/fonts/Graphik/GraphikSemiBoldItalic.otf"
+          style: "italic"
+          weight: 600
+        - asset: "assets/fonts/Graphik/GraphikBoldItalic.otf"
+          style: "italic"
+          weight: 700
+        - asset: "assets/fonts/Graphik/GraphikBlackItalic.otf"
+          style: "italic"
+          weight: 800
+        - asset: "assets/fonts/Graphik/GraphikSuperItalic.otf"
+          style: "italic"
+          weight: 900
+        - asset: "assets/fonts/Graphik/GraphikExtraLight.otf"
+          weight: 200
+        - asset: "assets/fonts/Graphik/GraphikLight.otf"
+          weight: 300
+        - asset: "assets/fonts/Graphik/GraphikRegular.otf"
+          weight: 400
+        - asset: "assets/fonts/Graphik/GraphikMedium.otf"
+          weight: 500
+        - asset: "assets/fonts/Graphik/GraphikSemiBold.otf"
+          weight: 600
+        - asset: "assets/fonts/Graphik/GraphikBold.otf"
+          weight: 700
+        - asset: "assets/fonts/Graphik/GraphikBlack.otf"
+          weight: 800
+        - asset: "assets/fonts/Graphik/GraphikSuper.otf"
+          weight: 900
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
